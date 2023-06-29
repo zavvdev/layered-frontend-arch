@@ -1,3 +1,5 @@
+import "./styles.css";
+
 interface AppProps {
   title: string;
 }
@@ -5,7 +7,7 @@ interface AppProps {
 function App({ title }: AppProps) {
   return (
     <>
-      <h1>{title}</h1>
+      <h1 className="text-3xl font-bold underline">{title}</h1>
     </>
   );
 }
