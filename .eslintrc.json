@@ -11,6 +11,18 @@
   "plugins": ["react-refresh"],
   "rules": {
     "prettier/prettier": "error",
-    "react-refresh/only-export-components": "warn"
-  }
+    "react-refresh/only-export-components": "warn",
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": [".*"],
+            "message": "Relative imports prohibited. Use absolute path."
+          }
+        ]
+      }
+    ]
+  },
+  "ignorePatterns": ["dist/", "server/"]
 }
