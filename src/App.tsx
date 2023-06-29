@@ -1,4 +1,5 @@
-import "@/styles.css";
+import "@/styles/index.scss";
+import classes from "@/App.module.scss";
 
 interface AppProps {
   title: string;
@@ -7,7 +8,7 @@ interface AppProps {
 function App({ title }: AppProps) {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">{title}</h1>
+      <h1 className={classes.title}>{title}</h1>
     </>
   );
 }
