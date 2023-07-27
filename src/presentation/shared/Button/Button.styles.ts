@@ -1,5 +1,5 @@
-import { Theme } from "@/presentation/styles/config";
 import { createUseStyles } from "react-jss";
+import { Theme } from "~/presentation/styles/config";
 
 export const useButtonStyles = createUseStyles((theme: Theme) => ({
   root: {

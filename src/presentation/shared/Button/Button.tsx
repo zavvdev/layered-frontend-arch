@@ -1,5 +1,5 @@
 import cx from "clsx";
-import { useButtonStyles } from "@/presentation/shared/Button/Button.styles";
+import { useButtonStyles } from "~/presentation/shared/Button/Button.styles";
 
 interface Props {
   children: React.ReactNode;
