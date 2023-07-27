@@ -1,8 +1,9 @@
-import "@/index.css";
-import { StylingProps, ThemeProvider } from "@/styles/ThemeProvider";
-import { QueryClientProvider } from "@tanstack/react-query";
-import { queryClient } from "@/api/queryClient";
-import { Dashboard } from "@/pages/Dashboard";
+import "@/presentation/styles/reset.css";
+import {
+  StylingProps,
+  ThemeProvider,
+} from "@/presentation/styles/ThemeProvider";
+import { Dashboard } from "@/presentation/pages/Dashboard";
 
 interface Props {
   styling?: StylingProps;
@@ -11,9 +12,7 @@ interface Props {
 export function App({ styling }: Props) {
   return (
     <ThemeProvider theme={styling?.theme} generateId={styling?.generateId}>
-      <QueryClientProvider client={queryClient}>
-        <Dashboard />
-      </QueryClientProvider>
+      <Dashboard />
     </ThemeProvider>
   );
 }

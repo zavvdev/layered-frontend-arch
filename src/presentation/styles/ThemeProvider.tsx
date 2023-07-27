@@ -1,5 +1,5 @@
 import { JssProvider, ThemeProvider as JssThemeProvider } from "react-jss";
-import { Theme, THEME } from "@/styles/config";
+import { Theme, THEME } from "@/presentation/styles/config";
 
 export interface StylingProps {
   theme?: Theme;
