@@ -1,3 +1,9 @@
 {
-  "label": "Bücher"
+  "label": "Bücher",
+  "filter": {
+    "authorsSelect": "Wählen Autor",
+    "authors": "Autoren:"
+  },
+  "loading": "🕑 Bücher holen...",
+  "empty": "Leer"
 }

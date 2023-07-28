@@ -1,3 +1,9 @@
 {
-  "label": "Books"
+  "label": "Books",
+  "filter": {
+    "authorsSelect": "Select author",
+    "authors": "Authors:"
+  },
+  "loading": "🕑 Fetching books...",
+  "empty": "Empty"
 }

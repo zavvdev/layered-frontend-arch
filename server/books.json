@@ -5,7 +5,7 @@
     "author": "Robert Martin",
     "date": "Sep 17, 2017",
     "price": "$32",
-    "cover_url": "http://localhost:4242/images/1.jpg"
+    "coverUrl": "http://localhost:4242/images/1.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "author": "Robert Martin",
     "date": "Aug 11, 2008",
     "price": "$41",
-    "cover_url": "http://localhost:4242/images/2.jpg"
+    "coverUrl": "http://localhost:4242/images/2.jpg"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "author": "Dan Vanderkam",
     "date": "Nov 12, 2019",
     "price": "$24",
-    "cover_url": "http://localhost:4242/images/3.jpg"
+    "coverUrl": "http://localhost:4242/images/3.jpg"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "author": "David Flanagan",
     "date": "Jun 23, 2020",
     "price": "$29",
-    "cover_url": "http://localhost:4242/images/4.jpg"
+    "coverUrl": "http://localhost:4242/images/4.jpg"
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "author": "Graham Hutton",
     "date": "Sep 1, 2016",
     "price": "$37",
-    "cover_url": "http://localhost:4242/images/5.jpg"
+    "coverUrl": "http://localhost:4242/images/5.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "author": "Bryan O'Sullivan, John Goerzen",
     "date": "Dec 1, 2008",
     "price": "$28",
-    "cover_url": "http://localhost:4242/images/6.jpg"
+    "coverUrl": "http://localhost:4242/images/6.jpg"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "author": "Sam Newman",
     "date": "Sep 28, 2021",
     "price": "$46",
-    "cover_url": "http://localhost:4242/images/7.jpg"
+    "coverUrl": "http://localhost:4242/images/7.jpg"
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "author": "Eric Matthes",
     "date": "May 3, 2019",
     "price": "$23",
-    "cover_url": "http://localhost:4242/images/8.jpg"
+    "coverUrl": "http://localhost:4242/images/8.jpg"
   },
   {
     "id": 9,
@@ -69,6 +69,6 @@
     "author": "Daniel Bugl ",
     "date": "Aug 31, 2017",
     "price": "$31",
-    "cover_url": "http://localhost:4242/images/9.jpg"
+    "coverUrl": "http://localhost:4242/images/9.jpg"
   }
 ]
