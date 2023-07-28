@@ -6,5 +6,5 @@ export const LANGUAGES = {
 export const DEFAULT_LANGUAGE = LANGUAGES.en;
 
 export const I18N_NAMESPACES = {
-  dashboard: "dashboard",
+  books: "books",
 };

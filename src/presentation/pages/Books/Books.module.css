@@ -1,0 +1,9 @@
+.root {
+  padding: 0 5%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

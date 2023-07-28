@@ -1,39 +1,13 @@
-import cx from "clsx";
-import { useButtonStyles } from "~/presentation/shared/Button/Button.styles";
+import classes from "~/presentation/shared/Button/Button.module.css";
 
 interface Props {
   children: React.ReactNode;
-  className?: string;
   onClick: VoidFunction;
-  disabled?: boolean;
-  fullWidth?: boolean;
 }
 
-export function Button({
-  children,
-  className,
-  onClick,
-  disabled,
-  fullWidth,
-}: Props) {
-  const classes = useButtonStyles();
-
-  const rootClasses = cx(
-    classes.root,
-    {
-      [classes.disabled]: disabled,
-      [classes.rootFullWidth]: fullWidth,
-    },
-    className,
-  );
-
+export function Button({ children, onClick }: Props) {
   return (
-    <button
-      type="button"
-      disabled={disabled}
-      className={rootClasses}
-      onClick={onClick}
-    >
+    <button type="button" className={classes.root} onClick={onClick}>
       {children}
     </button>
   );

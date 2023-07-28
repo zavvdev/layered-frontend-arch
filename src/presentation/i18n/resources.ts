@@ -1,12 +1,12 @@
-import enDashboard from "~/presentation/i18n/en/dashboard.json";
-import deDashboard from "~/presentation/i18n/de/dashboard.json";
+import enBooks from "~/presentation/i18n/en/books.json";
+import deBooks from "~/presentation/i18n/de/books.json";
 import { I18N_NAMESPACES, LANGUAGES } from "~/presentation/i18n/config";
 
 export const resources = {
   [LANGUAGES.en]: {
-    [I18N_NAMESPACES.dashboard]: enDashboard,
+    [I18N_NAMESPACES.books]: enBooks,
   },
   [LANGUAGES.de]: {
-    [I18N_NAMESPACES.dashboard]: deDashboard,
+    [I18N_NAMESPACES.books]: deBooks,
   },
 };
