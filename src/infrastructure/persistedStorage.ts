@@ -1,6 +1,6 @@
-import { PersistedStorage as PersistedStorageInterface } from "~/entities/PersistedStorage";
+import { PersistedStorage as PersistedStorageEntity } from "~/entities/PersistedStorage";
 
-class PersistedStorage implements PersistedStorageInterface {
+class PersistedStorage implements PersistedStorageEntity {
   private repo: Storage;
 
   constructor(repo: Storage) {

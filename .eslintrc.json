@@ -61,8 +61,8 @@
           },
           {
             "target": "./src/presentation",
-            "from": ["./src/entities", "./src/infrastructure"],
-            "message": "Presentation layer should depend only on Application layer"
+            "from": ["./src/infrastructure"],
+            "message": "Presentation layer should not depend on Infrastructure layer"
           }
         ]
       }

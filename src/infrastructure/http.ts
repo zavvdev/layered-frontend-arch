@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
-import { Http as HttpInterface, HttpRequestConfig } from "~/entities/Http";
+import { Http as HttpEntity, HttpRequestConfig } from "~/entities/Http";
 
-class Http implements HttpInterface {
+class Http implements HttpEntity {
   private repo: AxiosInstance;
 
   constructor(repo: AxiosInstance) {

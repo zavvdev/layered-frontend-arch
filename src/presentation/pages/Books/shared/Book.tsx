@@ -1,18 +1,19 @@
+import { Book as BookEntity } from "~/entities/api/Book";
+
 interface Props {
-  cover: string;
-  title: string;
-  meta: string;
-  price: string;
+  book: BookEntity;
 }
 
-export function Book({ cover, title, meta, price }: Props) {
+export function Book({ book }: Props) {
   return (
     <div>
-      <img src={cover} alt={title} width={300} />
-      <h3>{title}</h3>
-      <i>{meta}</i>
+      <img src={book.coverUrl || ""} alt={book.title} width={300} />
+      <h3>{book.title}</h3>
+      <i>
+        {book.author} | {book.date}
+      </i>
       <div>
-        <b>{price}</b>
+        <b>{book.price}</b>
       </div>
       <hr />
     </div>

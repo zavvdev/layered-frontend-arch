@@ -1,8 +1,8 @@
 import { Http } from "~/entities/Http";
-import { Book } from "~/entities/models/Book";
+import { Book } from "~/entities/api/Book";
 import { http } from "~/infrastructure/http";
 
-class BooksApi {
+export class BooksApi {
   private http: Http;
 
   constructor(http: Http) {
