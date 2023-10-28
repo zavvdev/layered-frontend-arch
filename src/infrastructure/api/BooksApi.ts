@@ -1,6 +1,5 @@
-import { Http } from "~/entities/Http";
-import { Book } from "~/entities/api/Book";
-import { http } from "~/infrastructure/http";
+import { Book } from "~/entities/Book";
+import { Http, http } from "~/infrastructure/http";
 
 export class BooksApi {
   private http: Http;

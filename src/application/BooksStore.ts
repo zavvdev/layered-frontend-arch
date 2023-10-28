@@ -1,8 +1,10 @@
 import { makeObservable, observable, action, computed } from "mobx";
-import { PersistedStorage } from "~/entities/PersistedStorage";
-import { Book } from "~/entities/api/Book";
+import { Book } from "~/entities/Book";
 import { BooksApi, booksApi } from "~/infrastructure/api/BooksApi";
-import { persistedStorage } from "~/infrastructure/persistedStorage";
+import {
+  PersistedStorage,
+  persistedStorage,
+} from "~/infrastructure/persistedStorage";
 
 interface Args {
   api: BooksApi;

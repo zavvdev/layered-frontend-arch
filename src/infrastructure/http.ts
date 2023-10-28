@@ -1,7 +1,14 @@
 import axios, { AxiosInstance, AxiosRequestConfig } from "axios";
-import { Http as HttpEntity, HttpRequestConfig } from "~/entities/Http";
 
-class Http implements HttpEntity {
+export type HttpRequestConfig = {
+  baseURL?: string;
+  params?: Record<string, unknown>;
+  headers?: {
+    [key: string]: string | string[] | number | boolean | null;
+  };
+};
+
+export class Http {
   private repo: AxiosInstance;
 
   constructor(repo: AxiosInstance) {
