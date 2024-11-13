@@ -6,6 +6,8 @@ import {
   persistedStorage,
 } from "~/infrastructure/persistedStorage";
 
+export type { Book } from "~/entities/Book";
+
 interface Args {
   api: BooksApi;
   storage: PersistedStorage;

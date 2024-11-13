@@ -1,4 +1,4 @@
-import { Book as BookEntity } from "~/entities/Book";
+import { Book as BookEntity } from "~/application/BooksStore";
 
 interface Props {
   book: BookEntity;
