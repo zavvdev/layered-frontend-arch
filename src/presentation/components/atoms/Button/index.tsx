@@ -1,4 +1,4 @@
-import classes from "~/presentation/shared/Button/Button.module.css";
+import classes from "~/presentation/components/atoms/Button/styles.module.css";
 
 interface Props {
   children: React.ReactNode;

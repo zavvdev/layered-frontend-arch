@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { observer } from "mobx-react";
 import { useTranslation } from "react-i18next";
 import { I18N_NAMESPACES } from "~/presentation/i18n/config";
-import classes from "~/presentation/pages/Books/Books.module.css";
+import classes from "~/presentation/components/pages/Books/styles.module.css";
 import { booksStore } from "~/application/BooksStore";
-import { AuthorsFilter } from "~/presentation/pages/Books/shared/AuthorsFilter";
-import { Book } from "~/presentation/pages/Books/shared/Book";
-import { LangToggle } from "~/presentation/pages/Books/shared/LangToggle";
+import { AuthorsFilter } from "~/presentation/components/pages/Books/atoms/AuthorsFilter";
+import { Book } from "~/presentation/components/pages/Books/atoms/Book";
+import { LangToggle } from "~/presentation/components/pages/Books/atoms/LangToggle";
 
 export const Books = observer(() => {
   const { t } = useTranslation(I18N_NAMESPACES.books);

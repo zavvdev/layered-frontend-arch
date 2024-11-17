@@ -63,6 +63,38 @@
             "target": "./src/presentation",
             "from": ["./src/infrastructure", "./src/entities"],
             "message": "Presentation layer should depend only on Application layer"
+          },
+          {
+            "target": "./src/presentation/components/atoms",
+            "from": [
+              "./src/presentation/components/molecules",
+              "./src/presentation/components/organisms",
+              "./src/presentation/components/templates",
+              "./src/presentation/components/pages"
+            ],
+            "message": "Dependency prohibited"
+          },
+          {
+            "target": "./src/presentation/components/molecules",
+            "from": [
+              "./src/presentation/components/organisms",
+              "./src/presentation/components/templates",
+              "./src/presentation/components/pages"
+            ],
+            "message": "Dependency prohibited"
+          },
+          {
+            "target": "./src/presentation/components/organisms",
+            "from": [
+              "./src/presentation/components/templates",
+              "./src/presentation/components/pages"
+            ],
+            "message": "Dependency prohibited"
+          },
+          {
+            "target": "./src/presentation/components/templates",
+            "from": ["./src/presentation/components/pages"],
+            "message": "Dependency prohibited"
           }
         ]
       }
